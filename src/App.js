@@ -1,26 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import NavBar from "./Navbar"
+import './header.css'
+import Section from "./Section"
+import aboutText from "./AboutText"
+import Header from "./Header"
 
-function App() {
+
+class App extends React.Component {
+
+render(){
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Header/>
+      <Section
+        title="About me"
+        subtitle={aboutText}
+        dark={true}
+        id="section1"
+      />
+      <Section
+        title="Skills"
+        subtitle={aboutText}
+        dark={false}
+        id="section2"
+      />
+      <Section
+        title="Portfolio"
+        subtitle={aboutText}
+        dark={true}
+        id="section3"
+      />
+      <Section
+        title="Contacts"
+        subtitle={aboutText}
+        dark={false}
+        id="section4"
+      />
+      <Section
+        id="section5"
+      />
     </div>
   );
 }
-
-export default App;
+}
+export default App
