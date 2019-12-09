@@ -4,7 +4,8 @@ import { Parallax } from 'react-parallax'
 import img from './images/forest.jpg'
 import linkedin from './images/linkedin.png'
 import github from './images/github.png'
-import email from './images/email.png'
+import email from './images/email.jpg'
+import resume from './images/resume.png'
 
 
 const insideStyles = {
@@ -31,6 +32,7 @@ class Header extends React.Component {
              <li><a href="https://www.linkedin.com/in/annastepanova1811/" target="blank"><img src={linkedin} alt="linkedin" /></a></li>
              <li><a href="https://github.com/annastepanova" target="blank"><img src={github} alt="github" /></a></li>
              <li><a href="mailto:annastepanova1811@gmail.com" target="blank"><img src={email} alt="email" /></a></li>
+             <li><a href="https://zety.com/" target="blank"><img src={resume} alt="resume" /></a></li>
            </ul>
            </div>
         </div>

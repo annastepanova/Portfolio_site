@@ -78,30 +78,3 @@ export default class Navbar extends Component {
     )
   }
 }
-
-
-
-
-
-// export default class NavBar extends React.Component {
-//   render () {
-//   return (
-//     <nav id="navbar">
-//       <ul className="navlist">
-//         {/* <li><NavLink className="navtext" smooth to="#top" activeClassName="selected">HOME</NavLink></li> */}
-//         <li><NavLink to="#top">HOME</NavLink></li>
-//         <li><NavLink className="navtext" smooth to="#about" activeClassName="selected">ABOUT</NavLink></li>
-//         <li><NavLink className="navtext" exact to="/skills">SKILLS</NavLink></li>
-//         <li><NavLink className="navtext" exact to="/projects">PROJECTS</NavLink></li>
-//         <li><NavLink className="navtext" exact to="/contacts">CONTACTS</NavLink></li>
-//       </ul>
-//     </nav>
-//   )
-
-// }
-
-//   componentDidMount() {
-//     window.scrollTo(0, 0)
-//   }
-
-// }
