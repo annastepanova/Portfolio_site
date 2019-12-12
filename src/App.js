@@ -17,7 +17,7 @@ render(){
       <NavBar />
       <Header/>
       <Section
-        title="About me"
+        title="Intro"
         id="section1"
       />
       <Intro/>

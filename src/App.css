@@ -21,6 +21,13 @@
   color: #515769;
   text-align: justify;
   border-bottom: 1px solid #edf0f2;
+  height: 350px;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  margin-top: 35px;
 }
 
 p {
@@ -29,8 +36,22 @@ p {
 
 .container {
   background: #fafafa;
+ 
 }
 
 .fullstack {
   margin-bottom: 35px;
+}
+
+.me {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 100%;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #3ab795;
 }
