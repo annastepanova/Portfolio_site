@@ -3,7 +3,34 @@
 }
 
 .section-content {
-  max-width: 800px;
+  max-width: 950px;
   margin: 0 auto;
-  padding: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  
+}
+
+.skills, .intro {
+  max-width: 950px;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 60px;
+  color: #515769;
+  text-align: justify;
+  border-bottom: 1px solid #edf0f2;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.container {
+  background: #fafafa;
+}
+
+.fullstack {
+  margin-bottom: 35px;
 }

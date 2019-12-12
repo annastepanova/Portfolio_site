@@ -5,6 +5,8 @@ import './header.css'
 import Section from "./Section"
 import aboutText from "./AboutText"
 import Header from "./Header"
+import Intro from "./Intro"
+import Skills from "./Skills"
 
 
 class App extends React.Component {
@@ -16,33 +18,32 @@ render(){
       <Header/>
       <Section
         title="About me"
-        subtitle={aboutText}
-        dark={true}
         id="section1"
       />
+      <Intro/>
+      <div className="container">
       <Section
         title="Skills"
-        subtitle={aboutText}
-        dark={false}
+        dark={true}
         id="section2"
       />
+      <Skills/>
+      </div>
       <Section
         title="Portfolio"
-        subtitle={aboutText}
-        dark={true}
         id="section3"
       />
       <Section
         title="Contacts"
         subtitle={aboutText}
-        dark={false}
+        dark={true}
         id="section4"
       />
       <Section
         id="section5"
       />
     </div>
-  );
+  )
 }
 }
 export default App

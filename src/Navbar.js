@@ -10,6 +10,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav id="navbar">
+        <div className="inner-nav">
           <ul className="navlist">
           <li className="nav-item">
             <Link
@@ -74,6 +75,7 @@ export default class Navbar extends Component {
               </Link>
             </li>
           </ul>
+        </div>  
       </nav>
     )
   }

@@ -17,7 +17,6 @@ const insideStyles = {
 
 class Header extends React.Component {
   
-
   render () {
    return (
      <div>
@@ -32,7 +31,7 @@ class Header extends React.Component {
              <li><a href="https://www.linkedin.com/in/annastepanova1811/" target="blank"><img src={linkedin} alt="linkedin" /></a></li>
              <li><a href="https://github.com/annastepanova" target="blank"><img src={github} alt="github" /></a></li>
              <li><a href="mailto:annastepanova1811@gmail.com" target="blank"><img src={email} alt="email" /></a></li>
-             <li><a href="https://zety.com/" target="blank"><img src={resume} alt="resume" /></a></li>
+               <li><a href="https://drive.google.com/file/d/12BHXI8tFgsHSyLHcMyRtvrgF8HSrINtC/view?usp=sharing" target="blank"><img src={resume} alt="resume" /></a></li>
            </ul>
            </div>
         </div>
@@ -40,7 +39,7 @@ class Header extends React.Component {
        </Parallax>
 
      </div>
-);
+)
 }
 }
 export default Header
