@@ -3,10 +3,10 @@ import './App.css'
 import NavBar from "./Navbar"
 import './header.css'
 import Section from "./Section"
-import aboutText from "./AboutText"
 import Header from "./Header"
 import Intro from "./Intro"
 import Skills from "./Skills"
+import MyForm from "./Myform"
 
 
 class App extends React.Component {
@@ -24,7 +24,6 @@ render(){
       <div className="container">
       <Section
         title="Skills"
-        dark={true}
         id="section2"
       />
       <Skills/>
@@ -33,12 +32,13 @@ render(){
         title="Portfolio"
         id="section3"
       />
+      <div className="container">
       <Section
         title="Contacts"
-        subtitle={aboutText}
-        dark={true}
         id="section4"
       />
+      <MyForm/>
+      </div>
       <Section
         id="section5"
       />

@@ -1,5 +1,5 @@
 import React from 'react'
-import Flippy, { FrontSide, BackSide } from 'react-flippy';
+import Flippy, { FrontSide, BackSide } from 'react-flippy'
 
 const FlippyStyle = {
   width: '284px',
@@ -26,7 +26,7 @@ export default class Skills extends React.Component {
   render() {
     return (
       <div className="skills">
-      <p className="fullstack">I specialise in full-stack development as my knowledge of multiple fields allows me to work on a project with the full scope in mind.</p>
+      <p className="paragraph">I specialise in full-stack development as my knowledge of multiple fields allows me to work on a project with the full scope in mind.</p>
       <div style={{ display: 'flex', justifyContent: 'space-around', 'flex-wrap': 'wrap' }}>
         <Flippy 
         style={FlippyStyle}>
@@ -94,6 +94,6 @@ export default class Skills extends React.Component {
           </Flippy>
         </div>
         </div> 
-    );
+    )
   }
 }

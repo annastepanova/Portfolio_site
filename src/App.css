@@ -12,7 +12,7 @@
   
 }
 
-.skills, .intro {
+.skills, .intro, .contact {
   max-width: 950px;
   margin: 0 auto;
   padding-right: 10px;
@@ -21,7 +21,7 @@
   color: #515769;
   text-align: justify;
   border-bottom: 1px solid #edf0f2;
-  height: 350px;
+  min-height: 350px;
 }
 
 .intro {
@@ -39,9 +39,6 @@ p {
  
 }
 
-.fullstack {
-  margin-bottom: 35px;
-}
 
 .me {
   width: 170px;

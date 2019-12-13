@@ -1,0 +1,67 @@
+textarea {
+  min-height: 200px;
+  }
+  
+input, textarea {
+  width: 90%;
+  font-size: 1.2rem;
+  padding: 6px;
+  margin: 0;
+  border: 2px solid lightgray;
+  }
+  
+form {
+  min-width: 450px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  }
+  
+@media (max-width: 1000px) {
+  form {
+    width: 100%;
+  }
+  }
+  
+button, input[type="reset"] {
+  color: white;
+  padding: 15px;
+  font-size: 1rem;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 125px;
+  }
+  
+button:hover {
+  background-color:#252934
+  }
+
+input[type="reset"]:hover {
+  background: transparent;
+  color: red;
+  border: 0.5px solid #660;
+  }
+
+input[type="reset"] {
+    background-color:#252934
+  }
+
+button {
+  background-color:  #3ab795;
+  }
+  
+.form-input {
+  margin: 3px 0;
+  }
+  
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.paragraph {
+  margin-bottom: 35px;
+  color: #515769;
+}
+  
