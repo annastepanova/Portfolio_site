@@ -10,11 +10,19 @@ class CardHeader extends React.Component {
         backgroundImage: 'url(' + image + ')',
     };
     return (
+      <div class="header-container">
+        <div class="hovereffect">
       <header style={style} id={image} className="card-header">
+        <div class="overlay">
+          <a class="info" href={this.props.href}>See on GitHub</a>
+        </div>
       </header>
+        </div>
+      </div>
     )
   }
 }
+
 
 class ButtonOne extends React.Component {
   render() {
@@ -58,12 +66,13 @@ class Card extends React.Component {
     return (
       <>
       <article className="article">
-        <CardHeader image={site}/>
+        <CardHeader image={site}
+            href={'https://github.com/annastepanova/contaminated_sites_search'}/>
         <CardBody title={'MIAMI-DADE CONTAMINATED SITE SEARCH'} text={'React.js web site allows Miami-Dade residents to view designated areas where environmental contamination has been documented.'}/>
         <ButtonOne/>
       </article>
       <article className="article">
-        <CardHeader image={oddjobs}/>
+          <CardHeader image={oddjobs} href={'https://github.com/annastepanova/Odd_Jobs'}/>
         <CardBody title={'ODD JOBS'} text={'Web site for searching and hiring independent contractors across Miami-Dade area. Based on React.js front-end and Rails API back-end.'}/>
          <ButtonTwo/>
       </article>
