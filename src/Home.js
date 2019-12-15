@@ -6,7 +6,7 @@ import Header from "./Header"
 import Intro from "./Intro"
 import Skills from "./Skills"
 import MyForm from "./Myform"
-
+import Card from "./Portfolio"
 
 class Home extends React.Component {
 
@@ -31,6 +31,9 @@ class Home extends React.Component {
           title="Portfolio"
           id="section3"
         />
+        <div className="projects-container">
+          <Card/>
+         </div>
         <div className="container">
           <Section
             title="Contacts"
