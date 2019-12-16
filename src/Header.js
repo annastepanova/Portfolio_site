@@ -19,7 +19,7 @@ class Header extends React.Component {
   
   render () {
    return (
-     <div>
+     <div className="responsive">
        <Parallax blur={{ min: -1, max: 0 }} bgImage={img} strength={600}>
          <div style={{ height: '600px' }} className="overlay">
          <div style={insideStyles}>

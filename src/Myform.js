@@ -35,6 +35,7 @@ export default class MyForm extends React.Component {
             placeholder="Enter email" 
             type="email" 
             name="email"
+            autocomplete="off"
             required
             />  
           </div>
