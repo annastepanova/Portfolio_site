@@ -7,6 +7,7 @@ import Intro from "./Intro"
 import Skills from "./Skills"
 import MyForm from "./Myform"
 import Card from "./Portfolio"
+import Footer from "./Footer"
 
 class Home extends React.Component {
 
@@ -41,9 +42,7 @@ class Home extends React.Component {
           />
           <MyForm />
         </div>
-        <Section
-          id="section5"
-        />
+        <Footer/>
       </>
     )
   }

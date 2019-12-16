@@ -1,0 +1,35 @@
+footer {
+  background:  rgb(26, 28, 35);
+  position: relative;
+  color: #8F9AA7;
+  
+}
+
+footer > p {
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+.row {
+   padding: 10px 0 10px 0;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-items: center;
+   align-items: center;
+}
+
+
+.footer-link {
+  text-decoration: none;
+  color: #8F9AA7;
+}
+
+.footer-link:hover {
+  color:  #3ab795;
+  opacity: 0.9;
+  transition: 0.4s;
+}
+
+.highlight {
+  color:  #3ab795;
+}
