@@ -57,5 +57,14 @@ p {
 .projects-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #edf0f2;
 }
 
+.sectionfive {
+  height: 4px;
+  background: #fafafa;
+}
+
+.contact {
+   border-bottom: none;
+}

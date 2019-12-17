@@ -16,11 +16,15 @@ const insideStyles = {
 }
 
 class Header extends React.Component {
+
+  state = {
+    bgImage: './images/forest.jpg'
+  }
   
   render () {
    return (
-     <div className="responsive">
-       <Parallax blur={{ min: -1, max: 0 }} bgImage={img} strength={600}>
+     <div>
+       <Parallax bgImage={img} strength={600}>
          <div style={{ height: '600px' }} className="overlay">
          <div style={insideStyles}>
            <div className="promo">
@@ -28,10 +32,10 @@ class Header extends React.Component {
            <p className="title">Full-Stack Web Developer</p>
            </div>  
            <ul className="links">
-             <li><a href="https://www.linkedin.com/in/annastepanova1811/" target="blank"><img src={linkedin} alt="linkedin" /></a></li>
-             <li><a href="https://github.com/annastepanova" target="blank"><img src={github} alt="github" /></a></li>
-             <li><a href="mailto:annastepanova1811@gmail.com" target="blank"><img src={email} alt="email" /></a></li>
-             <li><a href="https://drive.google.com/file/d/12BHXI8tFgsHSyLHcMyRtvrgF8HSrINtC/view?usp=sharing" target="blank"><img src={resume} alt="resume" /></a></li>
+             <li><a href="https://www.linkedin.com/in/annastepanova1811/" target="blank" title="linkedin"><img src={linkedin} alt="linkedin" /></a></li>
+             <li><a href="https://github.com/annastepanova" target="blank" title="github"><img src={github} alt="github" /></a></li>
+             <li><a href="mailto:annastepanova1811@gmail.com" target="blank" title="email"><img src={email} alt="email" /></a></li>
+               <li><a href="https://drive.google.com/file/d/1w-AWuOGh0QX3BQ7hYHSIFlqLS1cKYM8W/view?usp=sharing" target="blank" title="resume"><img src={resume} alt="resume" /></a></li>
            </ul>
            </div>
         </div>
@@ -41,5 +45,6 @@ class Header extends React.Component {
      </div>
 )
 }
+
 }
 export default Header
