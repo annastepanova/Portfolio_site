@@ -24,7 +24,7 @@ class Header extends React.Component {
   render () {
    return (
      <div>
-       <Parallax bgImage={img} strength={600}>
+       <Parallax bgImage={img} strength={600} bgImageSizes={{maxWidth: '100%'}}>
          <div style={{ height: '600px' }} className="overlay">
          <div style={insideStyles}>
            <div className="promo">
@@ -35,7 +35,7 @@ class Header extends React.Component {
              <li><a href="https://www.linkedin.com/in/annastepanova1811/" target="blank" title="linkedin"><img src={linkedin} alt="linkedin" /></a></li>
              <li><a href="https://github.com/annastepanova" target="blank" title="github"><img src={github} alt="github" /></a></li>
              <li><a href="mailto:annastepanova1811@gmail.com" target="blank" title="email"><img src={email} alt="email" /></a></li>
-               <li><a href="https://drive.google.com/file/d/1w-AWuOGh0QX3BQ7hYHSIFlqLS1cKYM8W/view?usp=sharing" target="blank" title="resume"><img src={resume} alt="resume" /></a></li>
+             <li><a href="https://drive.google.com/file/d/1w-AWuOGh0QX3BQ7hYHSIFlqLS1cKYM8W/view?usp=sharing" target="blank" title="resume"><img src={resume} alt="resume" /></a></li>
            </ul>
            </div>
         </div>
