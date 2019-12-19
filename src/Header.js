@@ -12,7 +12,9 @@ const insideStyles = {
   padding: 10,
   position: "absolute",
   top: "13%",
-  left: "14%"
+  left: "14%",
+  overflow: "hidden",
+  maxWidth: "100%"
 }
 
 class Header extends React.Component {
@@ -25,8 +27,8 @@ class Header extends React.Component {
    return (
      <div>
        <Parallax bgImage={img} strength={600} bgImageSizes={{maxWidth: '100%'}}>
-         <div style={{ height: '600px' }} className="overlay">
-         <div style={insideStyles}>
+         <div style={{ height: '650px' }} className="overlay">
+         <div className="promo-text"style={insideStyles}>
            <div className="promo">
            <h1 className="name">Anna <br/> Stepanova</h1>
            <p className="title">Full-Stack Web Developer</p>

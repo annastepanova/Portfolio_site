@@ -4,19 +4,18 @@
   top: 0;
   left: 0;
   z-index: 100;
-  width: 100%;
+  max-width: 100%;
   background-color: #333f49;
-  /* background-color: #baa772; */
   border-bottom: 1px solid rgba(255,255,255,.2);
-  /* box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15); */
   box-shadow: 0 2px 4px rgba(0,0,0,.5);
+  overflow: hidden;
 }
 
 .inner-nav {
   z-index: 200;
   background-color: rgba(0,0,0,0.5);
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 70px;
   top: 0;
 }
@@ -31,6 +30,7 @@
   flex-direction: row;
   justify-content: flex-end;
   margin: 0;
+  max-width: 100%;
 }
 
 .nav-item:hover {
@@ -51,4 +51,15 @@
   margin-right: 50px; 
 }
 
+@media (max-width: 480px) {
+.navlist {
+  justify-content: space-between;
+  font-size: 10px;
+}  
+
+.nav-item  {
+  margin-right: 0;
+}
+
+}
  

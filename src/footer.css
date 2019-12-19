@@ -2,6 +2,7 @@ footer {
   background:  rgb(26, 28, 35);
   position: relative;
   color: #8F9AA7;
+  max-width: 100%;
   
 }
 
@@ -32,13 +33,4 @@ footer > p {
 
 .highlight {
   color:  #3ab795;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  footer {
-    width:100%;
-    margin: auto;
-    font-size: 80%
-  }
-
 }

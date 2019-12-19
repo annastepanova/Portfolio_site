@@ -1,5 +1,10 @@
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #edf0f2;
+}
+
 .article {
-  min-width: 200px;
   height: fit-content;  
   display: grid;
   margin: 60px auto;
@@ -63,8 +68,8 @@
   }
 
 }
-.header-container {
-  min-width: 350px;
+header-container {
+  max-height: 100%;
 }
 
 .hovereffect {
@@ -140,3 +145,4 @@
   -webkit-transition-delay:.2s;
   transition-delay:.2s;
 }
+
