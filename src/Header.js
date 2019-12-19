@@ -9,11 +9,9 @@ import resume from './images/resume.png'
 
 
 const insideStyles = {
-  padding: 10,
   position: "absolute",
   top: "13%",
   left: "14%",
-  overflow: "hidden",
   maxWidth: "100%"
 }
 
@@ -28,7 +26,7 @@ class Header extends React.Component {
      <div>
        <Parallax bgImage={img} strength={600} bgImageSizes={{maxWidth: '100%'}}>
          <div style={{ height: '650px' }} className="overlay">
-         <div className="promo-text"style={insideStyles}>
+         <div className="promo-text" style={insideStyles}>
            <div className="promo">
            <h1 className="name">Anna <br/> Stepanova</h1>
            <p className="title">Full-Stack Web Developer</p>

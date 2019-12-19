@@ -6,7 +6,7 @@ import './portfolio.css'
 class CardHeader extends React.Component {
   render() {
     const { image } = this.props;
-    var style = { 
+    let style = { 
         backgroundImage: 'url(' + image + ')',
     };
     return (

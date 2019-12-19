@@ -9,6 +9,8 @@ input, textarea {
   margin: 0;
   border: 2px solid lightgray;
   font-family: 'Hind', sans-serif;
+  -webkit-appearance: none;
+  border-radius: 0;
   }
   
 form {
@@ -27,6 +29,8 @@ button, input[type="reset"] {
   transition: background-color 0.3s;
   width: 125px;
   font-family: 'Hind', sans-serif;
+  -webkit-appearance: none;
+  border-radius: 0;
   }
   
 button:hover {
@@ -72,5 +76,4 @@ button {
 .contact {
   padding: 0 30px 20px;
 }  
-
 }

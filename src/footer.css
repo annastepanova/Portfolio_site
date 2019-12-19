@@ -52,3 +52,9 @@ footer > p {
   text-align: center;
 }
 }
+
+@media only screen and (min-width: 768px)  and (max-width: 1024px) {
+.row {
+  padding: 10px 20px;
+}
+}

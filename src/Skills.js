@@ -27,9 +27,8 @@ export default class Skills extends React.Component {
     return (
       <div className="skills">
       <p className="paragraph">I specialise in full-stack development as my knowledge of multiple fields allows me to work on a project with the full scope in mind.</p>
-      <div style={{ display: 'flex', justifyContent: 'space-around', 'flex-wrap': 'wrap' }}>
-        <Flippy 
-        style={FlippyStyle}>
+        <div className="flippy" style={{ display: 'flex', justifyContent: 'space-around', 'flex-wrap': 'wrap' }}>
+        <Flippy style={FlippyStyle}>
           <FrontSide
             style={{
                     backgroundColor: '#41669d',

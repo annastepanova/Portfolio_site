@@ -43,10 +43,10 @@ li img {
 @media (max-width: 480px) {
 .promo-text {
   width: 70%;
-  padding: 0;
+  padding: 10px 0;
   font-size: 3rem;
+}
 
-}  
 .promo h1 {
     font-size: 3.5rem;
 }
@@ -54,5 +54,11 @@ li img {
 li img {
   width: 2.2rem;
   height: 2.2rem;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.promo-text {
+  padding: 10px;
 }
 }
