@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import React, { Component } from "react"
+import { Link, animateScroll as scroll } from "react-scroll"
 import './navbar.css'
 
 export default class Navbar extends Component {
@@ -66,6 +66,18 @@ export default class Navbar extends Component {
               <Link
                 activeClass="active"
                 to="section4"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                GITHUB
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section5"
                 spy={true}
                 smooth={true}
                 offset={-70}

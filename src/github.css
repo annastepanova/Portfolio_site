@@ -1,0 +1,51 @@
+.projects {
+  margin-top: 100px;
+  max-width: 100%;
+}
+
+.repo-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-columns: min-content;
+  grid-gap: 1rem;
+  padding: 20px;
+}
+
+.repo {
+  color: #111;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 1px 1px 1px #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.repo:hover {
+  transform: scale(1.02);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: coral;
+}
+
+a:hover {
+  color:  #04C2C9;
+}
+
+.text {
+  color:#b5e6e3;
+  font-size:30px; 
+  padding-top:40px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+.repos {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+}

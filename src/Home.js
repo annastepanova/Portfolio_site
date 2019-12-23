@@ -8,6 +8,7 @@ import Skills from "./Skills"
 import MyForm from "./Myform"
 import Card from "./Portfolio"
 import Footer from "./Footer"
+import GitHub from './GitHub'
 
 class Home extends React.Component {
 
@@ -37,14 +38,21 @@ class Home extends React.Component {
          </div>
         <div className="container">
           <Section
-            title="Contacts"
+            title="GitHub"
             id="section4"
+          />
+          <GitHub />
+        </div>
+        <div className="container">
+          <Section
+            title="Contacts"
+            id="section5"
           />
           <MyForm />
         </div>
-        <div className="sectionfive">
+        <div className="sectionsix">
         <Section
-          id="section5"
+          id="section6"
         />
         </div>
         <Footer/>
