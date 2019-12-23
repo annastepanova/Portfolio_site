@@ -1,18 +1,20 @@
 .projects {
-  margin-top: 100px;
+  margin-top: 50px;
   max-width: 100%;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #edf0f2;
 }
 
 .repo-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-auto-columns: min-content;
   grid-gap: 1rem;
-  padding: 20px;
+  padding: 30px;
 }
 
 .repo {
-  color: #111;
+  color: #515769;
   background: white;
   border-radius: 5px;
   text-align: center;
@@ -26,14 +28,14 @@
   transform: scale(1.02);
 }
 
-a {
+.github-link {
   text-decoration: none;
   cursor: pointer;
-  color: coral;
+  color:  #04C2C9;
 }
 
-a:hover {
-  color:  #04C2C9;
+.github-link:hover {
+  color: coral;
 }
 
 .text {
@@ -44,8 +46,11 @@ a:hover {
 }
 
 @media only screen and (max-width: 700px) {
-.repos {
+.repo-container {
   display: grid;
   grid-template-columns: 1fr;
+}
+.projects {
+  margin-top: 0px;
 }
 }

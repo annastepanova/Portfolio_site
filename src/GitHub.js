@@ -1,4 +1,5 @@
 import React from 'react'
+import './github.css'
 
 class GitHub extends React.Component {
 
@@ -20,7 +21,7 @@ class GitHub extends React.Component {
         <div className="repo-container">
           {this.state.repos.map(repo =>
             <div className="repo">
-              <p key={repo.id}><a href={repo.html_url} target="_blank" rel="noopener noreferrer">{repo.name}</a></p>
+              <p key={repo.id}><a className="github-link" href={repo.html_url} target="_blank" rel="noopener noreferrer">{repo.name}</a></p>
               <p>{repo.language}</p>
               <p>{new Date(`${repo.created_at}`).toLocaleString('en-US', {
                 month: 'long',

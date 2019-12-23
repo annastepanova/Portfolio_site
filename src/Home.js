@@ -38,18 +38,16 @@ class Home extends React.Component {
          </div>
         <div className="container">
           <Section
-            title="GitHub"
+            title="GitHub Starred"
             id="section4"
           />
           <GitHub />
         </div>
-        <div className="container">
           <Section
             title="Contacts"
             id="section5"
           />
           <MyForm />
-        </div>
         <div className="sectionsix">
         <Section
           id="section6"
