@@ -51,15 +51,3 @@
   margin-right: 50px; 
 }
 
-@media (max-width: 480px) {
-.navlist {
-  justify-content: space-between;
-  font-size: 10px;
-}  
-
-.nav-item  {
-  margin-right: 0;
-}
-
-}
- 

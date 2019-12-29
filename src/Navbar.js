@@ -9,6 +9,13 @@ export default class Navbar extends Component {
 
   render() {
     return (
+      <div id="fix">
+      <input id="burger" type="checkbox" />
+      <label for="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
       <nav id="navbar">
         <div className="inner-nav">
           <ul className="navlist">
@@ -89,6 +96,7 @@ export default class Navbar extends Component {
           </ul>
         </div>  
       </nav>
+      </div>
     )
   }
 }
