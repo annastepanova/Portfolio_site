@@ -6,7 +6,7 @@ class GitHub extends React.Component {
   state = { repos: [] }
 
   fetchGitHub() {
-    fetch('https://api.github.com/users/ANNASTEPANOVA/starred?per_page=10&sort=created&direction=asc')
+    fetch('https://api.github.com/users/ANNASTEPANOVA/starred?per_page=12&sort=created&direction=desc')
       .then(response => response.json())
       .then(data => this.setState({ repos: data }))
   }

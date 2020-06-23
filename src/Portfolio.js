@@ -1,6 +1,8 @@
 import React from 'react'
 import site from './images/miamidadesite.png'
 import oddjobs from './images/oddjobs.png'
+import eternity from './images/eternity.png'
+import chat from './images/chat.png'
 import './portfolio.css'
 
 class CardHeader extends React.Component {
@@ -47,6 +49,33 @@ class ButtonTwo extends React.Component {
     )
   }
 }
+
+class ButtonThree extends React.Component {
+  render() {
+    return (
+      <div className="explore-button">
+        <a href="https://eternitycreators.firebaseapp.com/" target="blank"><button className="button button-primary">
+          <i className="fa fa-chevron-right"></i> Explore
+      </button></a>
+      </div>
+    )
+  }
+}
+
+
+class ButtonFour extends React.Component {
+  render() {
+    return (
+      <div className="explore-button">
+        <a href="https://realtime-talks.firebaseapp.com/" target="blank"><button className="button button-primary">
+          <i className="fa fa-chevron-right"></i> Explore
+      </button></a>
+      </div>
+    )
+  }
+}
+
+
 class CardBody extends React.Component {
   render() {
     return (
@@ -75,6 +104,16 @@ class Card extends React.Component {
           <CardHeader image={oddjobs} href={'https://github.com/annastepanova/Odd_Jobs'}/>
         <CardBody title={'ODD JOBS'} text={'Web site for searching and hiring independent contractors across Miami-Dade area. Based on React.js front-end and Rails API back-end.'}/>
          <ButtonTwo/>
+      </article>
+      <article className="article">
+        <CardHeader image={eternity} href={'https://github.com/annastepanova/Create_Eternity_API'} />
+        <CardBody title={'CREATE ETERNITY'} text={'Web site for sharing and reading original short stories. Based on React.js front-end, Node.js, Express.js and MongoDB back-end.'} />
+        <ButtonThree />
+      </article>
+      <article className="article">
+          <CardHeader image={chat} href={'https://github.com/annastepanova/Realtime-Chat-App'} />
+        <CardBody title={'REALTIME GROUP CHAT'} text={'Online group chat web app. Based on React.js front-end, Node.js, Express.js and Socket.io library back-end.'} />
+        <ButtonFour />
       </article>
       </>
     )

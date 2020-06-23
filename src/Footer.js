@@ -10,7 +10,7 @@ export default class Footer extends React.Component {
         <div class="row">
           <div class="footnote">
             <p>Looking for new exciting opportunites. Hire me!</p>
-            <p>ANNA STEPANOVA <span class="highlight">©2019</span></p>
+            <p>ANNA STEPANOVA <span class="highlight">©2020</span></p>
           </div>
           <div>
             <p>Location</p>

@@ -12,6 +12,18 @@ const FlippyStyle = {
   cursor: 'pointer'
 }
 
+const FlippyStyleMargin = {
+  width: '284px',
+  height: '284px',
+  textAlign: 'center',
+  color: '#FFF',
+  fontFamily: 'sans-serif',
+  fontSize: '30px',
+  justifyContent: 'center',
+  cursor: 'pointer',
+  marginBottom: '20px'
+}
+
 
 export default class Skills extends React.Component {
   
@@ -28,7 +40,7 @@ export default class Skills extends React.Component {
       <div className="skills">
       <p className="paragraph">I specialise in full-stack development as my knowledge of multiple fields allows me to work on a project with the full scope in mind.</p>
         <div className="flippy" style={{ display: 'flex', justifyContent: 'space-around', 'flex-wrap': 'wrap' }}>
-        <Flippy style={FlippyStyle}>
+        <Flippy style={FlippyStyleMargin}>
           <FrontSide
             style={{
                     backgroundColor: '#41669d',
@@ -46,10 +58,10 @@ export default class Skills extends React.Component {
                     flexDirection: 'column',
                     padding: '30px',
                    justifyContent: 'space-around' }}>
-              HTML, CSS, Bootstrap, CSS Grid, Flexbox, Javascript, React
+              HTML, CSS, Bootstrap, CSS Grid, Flexbox, Javascript, React, Vue.js
           </BackSide>
           </Flippy>
-          <Flippy style={FlippyStyle}>
+          <Flippy style={FlippyStyleMargin}>
             <FrontSide
               style={{
                     backgroundColor: '#41669d',
@@ -67,7 +79,7 @@ export default class Skills extends React.Component {
                     flexDirection: 'column',
                     justifyContent: 'space-around' 
               }}>
-              Node.js, Express, SQL, Ruby, Ruby on Rails, REST API
+              Node.js, Express, SQL, MongoDB, Ruby on Rails, REST API
           </BackSide>
           </Flippy>
           <Flippy style={FlippyStyle}>
@@ -88,7 +100,7 @@ export default class Skills extends React.Component {
                     flexDirection: 'column',
                     justifyContent: 'space-around'
               }}>
-              Markdown, Python, Command Line, Heroku, Git, GitHub, Invision
+              Markdown, Command Line, Heroku, Firebase, Git, GitHub, Invision
           </BackSide>
           </Flippy>
         </div>
