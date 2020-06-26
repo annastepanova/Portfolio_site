@@ -30,7 +30,7 @@ class ButtonOne extends React.Component {
   render() {
     return (
       <div className="explore-button">
-      <a href="http://www.miamicontaminatedsites.com/" target="blank"><button className="button button-primary">
+        <a href="https://contaminated-sites-search.herokuapp.com" target="blank"><button className="button button-primary">
         <i className="fa fa-chevron-right"></i> Explore
       </button></a>
       </div>
